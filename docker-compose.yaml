@@ -4,5 +4,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    entrypoint: /bin/sh
+    entrypoint: /bin/bash
     image: r5sec5cyl/serverless-amazonlinux
